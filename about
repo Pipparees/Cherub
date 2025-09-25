@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — CHERuB Study</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">CHERuB Study</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy notices</a>
+        <a href="/news.html">News</a>
+        <a href="/outputs.html">Outputs</a>
+        <a href="/team.html">Meet the team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>About the study</h2>
+    <p>The CHERuB study (NIHR-funded) investigates childhood outcomes after perinatal brain injuries. We follow developmental, cognitive and health outcomes to improve care and support.</p>
+
+    <section>
+      <h3>Study overview (lay summary)</h3>
+      <p>We recruit children who experienced perinatal brain injury and follow them with periodic assessments, questionnaires and routine data linkage. Our aim is to understand long-term outcomes and identify interventions.</p>
+    </section>
+
+    <section>
+      <h3>Videos</h3>
+      <p>Below are video placeholders. Host your videos on YouTube or Vimeo and replace the src URLs with the embed link.</p>
+      <div class="video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Overview video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:cherub@example.org">cherub@example.org</a></p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
