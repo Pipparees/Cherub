@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Outputs & Publications — CHERuB Study</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">CHERuB Study</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy notices</a>
+        <a href="/news.html">News</a>
+        <a href="/outputs.html">Outputs</a>
+        <a href="/team.html">Meet the team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Publications & outputs</h2>
+    <p>Below are publications, reports and other outputs from the CHERuB study. Add items to <code>_data/publications.json</code> or edit this page directly.</p>
+
+    <ul id="pub-list" class="pub-list">
+      <li class="pub-item">No publications yet — add entries to <code>_data/publications.json</code> or edit this page.</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:cherub@example.org">cherub@example.org</a></p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
