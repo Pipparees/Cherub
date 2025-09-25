@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meet the team — CHERuB Study</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">CHERuB Study</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy notices</a>
+        <a href="/news.html">News</a>
+        <a href="/outputs.html">Outputs</a>
+        <a href="/team.html">Meet the team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Meet the team</h2>
+    <p>Below are core study team members. Replace placeholders with real photos and bios.</p>
+
+    <div class="team-grid">
+      <article class="team-card">
+        <img class="team-photo" src="/assets/images/team1.jpg" alt="Dr Alice Example, PI">
+        <h4>Dr Alice Example</h4>
+        <p>Principal Investigator — Neonatology</p>
+      </article>
+
+      <article class="team-card">
+        <img class="team-photo" src="/assets/images/team2.jpg" alt="Prof Bob Example, Co-I">
+        <h4>Prof Bob Example</h4>
+        <p>Co-Investigator — Developmental Neuroscience</p>
+      </article>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:cherub@example.org">cherub@example.org</a></p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
