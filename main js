@@ -1,0 +1,13 @@
+// Populate latest news area with fallback items if Twitter embed isn't available.
+// Replace or extend these items with your real news later.
+document.addEventListener('DOMContentLoaded',function(){
+  const newsList = document.getElementById('news-list');
+  if(!newsList) return;
+  const fallback = [
+    {date:'2025-09-01',title:'CHERuB study launches',link:'#'},
+    {date:'2025-09-10',title:'First participant recruited',link:'#'},
+    {date:'2025-10-05',title:'Presenting at Pediatric Neuroconference',link:'#'}
+  ];
+  const html = fallback.map(n=>`<article class="news-item"><h4><a href="${n.link}">${n.title}</a></h4><time>${n.date}</time></article>`).join('');
+  newsList.innerHTML = html;
+});
