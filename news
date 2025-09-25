@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>News — CHERuB Study</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">CHERuB Study</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy notices</a>
+        <a href="/news.html">News</a>
+        <a href="/outputs.html">Outputs</a>
+        <a href="/team.html">Meet the team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>News & updates</h2>
+
+    <section>
+      <h3>Twitter feed</h3>
+      <p>Live feed from our Twitter account (@CHERuBstudy). If the embedded timeline doesn't show, we provide manual posts below.</p>
+
+      <!-- Twitter embed widget -->
+      <a class="twitter-timeline" data-lang="en" data-theme="light" data-height="600" href="https://twitter.com/CHERuBstudy?ref_src=twsrc%5Etfw">Tweets by CHERuBstudy</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </section>
+
+    <section>
+      <h3>Manual news (fallback)</h3>
+      <div id="news-list">Loading news…</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:cherub@example.org">cherub@example.org</a></p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
