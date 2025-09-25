@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy notices — CHERuB Study</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">CHERuB Study</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy notices</a>
+        <a href="/news.html">News</a>
+        <a href="/outputs.html">Outputs</a>
+        <a href="/team.html">Meet the team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Privacy notices</h2>
+    <p>Use this page to publish your participant privacy notice and data handling information. Below is a template you must adapt and approve through your study's governance process.</p>
+
+    <section>
+      <h3>Participant privacy notice (summary)</h3>
+      <p>CHERuB collects only the minimum personal data necessary to recruit and follow participants. We store data securely, restrict access to approved study staff, and do not share identifiable data outside the study team without consent. Data retention, rights to access, and deletion requests are described in the full privacy notice.</p>
+      <p><a href="/assets/CHERuB_privacy_full.pdf">Download full privacy notice (PDF)</a> — replace with your final approved document.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:cherub@example.org">cherub@example.org</a></p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
